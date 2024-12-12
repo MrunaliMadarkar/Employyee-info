@@ -1,0 +1,708 @@
+##Practical 1##
+a.Write a HTML code to display the personal information of an employee.
+  <!doctype html>
+<html>
+<head>
+   <title>
+   Employee details
+   </title>
+</head>
+<body>
+   <h1>Employee details</h1>
+   <p><b>Name:</b> Mrunali Madarkar</p>
+   <p><b>Address:</b> Sahakar Nagar</p>
+   <p><b>Gender:</b> Female </p>
+   <p><b>Age:</b> 20</p>
+   <p><b>Phone No.:</b> 1122334455</p>
+</body>
+</html>
+
+b.Write a HTML code to display the hyperlink and image using anchor tag and image tag.
+  <!doctype html>
+<html>
+<head>
+   <title>
+   Hyperlink and img
+   </title>
+</head>
+<body>
+   <h1>Hyperlink and Img</h1>
+   <a href="https://www.ycce.edu/"><img src="https://upload.wikimedia.org/wikipedia/en/4/4c/Ycce_CollegeLogo.jpg" alt="YCCE logo" width="200" height="200"></a><br><br>
+   </body>
+</html>
+
+c.Write a HTML code to display the ordered list, unordered list and definition list.
+  <!doctype html>
+<html>
+<head>
+   <title>
+   list
+   </title>
+</head>
+<body>
+   <h1>list in html</h1>
+   <ol>
+      <li>Aries</li>
+	  <li>Bingo</li>
+	  <li>leo</li>
+	  <li>Oracle</li>
+   </ol>
+   <hr>
+   <ul>
+      <li>Aries</li>
+	  <li>Bingo</li>
+	  <li>leo</li>
+	  <li>Oracle</li>
+   </ul>
+   <hr>
+   <dl>
+      <dt>Aries</dt>
+	  <dd>Aries is the first sign of the zodiac, considered as governing the period from about March 21 to about April 19.</dd>
+	  <dt>leo</dt>
+	  <dd> Leo is the fifth sign of the zodiac, considered as governing the period from about July 23 to about August 22.</dd>
+   </ul>
+   <hr>
+</body>
+</html>
+-----------------------------------------------------------------------------------------------------------------------------
+
+##Practical 2 ##
+To study HTML Tables:-
+Write a HTML code to display the following table:
+<!doctype html>
+<html>
+<head>
+   <title>
+   Table
+   </title>
+</head>
+<body>
+   
+   <table border="1px solid black">
+      <tr>
+	  <th colspan="4">Data</th>
+	  </tr>
+	  
+	  <tr>
+	  <th>First Name</th>
+	  <th>Last Name</th>
+	  <th>City</th>
+	  <th>Phone No.</th>
+	  </tr>
+	  
+	  <tr>
+	  <td>Mrunali</td>
+	  <td>Madarkar</td>
+	  <td>Bhandara</td>
+	  <td>1122334455</td>
+	  </tr>
+	  
+	  <tr>
+	  <td>Apurva</td>
+	  <td>Jadhao</td>
+	  <td>Nagpur</td>
+	  <td>0011223344</td>
+	  </tr>
+   </table>
+</body>
+</html>
+--------------------------------------------------------------------------------------------------------------------
+
+Practical 3
+a.Write a HTML code to create user login form.
+<!doctype html>
+<html>
+ <HEAD>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <title>login form</title>
+</HEAD>
+
+   <body background="https://cdn.pixabay.com/photo/2017/04/05/04/44/background-2203989_1280.jpg" width="100">
+<h1>login form</H1>
+<form>
+ <label>Username:-<input type="text"></label><br>
+ <label>Password:-&nbsp;<input type="text"></label><br> <br>
+ <button type="submit">Login </button
+</form>
+   </body>
+</html>
+
+b.Write a HTML code to create student registration form.
+  <!doctype html>
+<html lag="en">
+<html>
+ <HEAD>
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <ttile></title>
+</HEAD>
+<style>
+ form,h1 {
+color:white;
+}
+input{
+align:center;
+}
+
+</style>
+   <body background="https://th.bing.com/th/id/R.2a6f56f4ab54b39397f1c9ff62932793?rik=FO4AuYMqXtKcVA&riu=http%3a%2f%2ftalenthub360.com%2fwp-content%2fuploads%2f2016%2f01%2fform-background-js.jpg&ehk=uyIoINc6wi8SftmbXZl2e%2b0bZWeGNA3hCMyHhj%2fpuLo%3d&risl=&pid=ImgRaw&r=0" width="100">
+<h1>Registration form</H1><hr>
+<form>
+ <label>Firstname:-&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"></label><br><br>
+ <label>Middlename:-<input type="text"></label><br><br>
+<label>lastname:-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"></label><br><br>
+<label>course:-</label>
+<select>
+<option value="btech"> btech</option><br>
+<option value="BE"> BE</option>
+<option value="Bsc"> Bsc</option>
+<option value="BBA"> BBA</option>
+<option value="Mbbs"> Mbbs</option></select><br><br>
+
+<label>Gender
+<input type="radio" name="male">Male
+<input type="radio" name="male">Female
+<input type="radio" name="other">other</label><br><br>
+
+phone:</label>
+<input type="text" name="country code" value="+" size="2"/>
+<input type="text" name="phone" phonesize="2"/> <br><br>
+
+<label>Address:</label><br>
+<textarea cols="80" rows="5" value="address">
+</textarea>
+<br><br>
+<label> Email:&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<input type="email" id="email" name="e-mail"/>
+<br><br>
+<label> Password:</label>
+<input type="Password" id="pass" name="pass"/> <br><br>
+
+
+<label> Retype Password:</label>
+<input type="Password" id="pass" name="repass"/> <br><br>
+
+ <button type="submit">Submit</button><hr>
+</form>
+   </body>
+</html>
+
+---------------------------------------------------------------------------------------------------------------------
+Practical 4
+a.To study frames and write a HTML code for creation of frame.
+  <!DOCTYPE html>
+<html>
+	<head>
+		<title>Example of HTML Frames using row attribute</title>
+	</head>
+		
+	<frameset rows = "20%, 60%, 20%">
+		<frame name = "top" src =
+		"C:/Users/dharam/Desktop/attr1.png" />
+		<frame name = "main" src =
+		"C:/Users/dharam/Desktop/gradient3.png" />
+		<frame name = "bottom" src =
+		"C:/Users/dharam/Desktop/col_last.png" />
+		<noframes>
+			<body>The browser you are working does
+						not support frames.</body>
+		</noframes>
+	</frameset>
+</html>					
+
+b.Write a HTML code to create 4 frames in a page and display 4 images in those frames.
+  <html>
+<head>
+<title> frames </title>
+<style>
+frame{
+background-color:#E3AC6D;
+}
+</style>
+</head>
+<frameset rows="50%,*" border="null">
+<frame src ="top.html" name="f1">
+<frameset cols="33%,34%,*">
+<frame src ="bottom.html" name="f2">
+<frame src ="bottom1.html" name="f2">
+<frame src ="bottom2.html" name="f2">
+</frameset>
+</frameset>
+</html>
+
+## top.html
+<!doctype html>
+<html>
+<head>
+   <title></title>
+ <H2 COLOR="#00704A">&#9776;</H2>
+   <h2 align="center" class="circle">Welcome To Starbucks!</h2>
+<style>
+.circle {
+color:white;
+  text-align:centre;
+    background:#00704A;
+    width: 500px;
+    height: 50px;
+	margin-left: 30%;
+	justify-content: center;
+  align-items: center;
+text-align: center;
+  display: flex;
+}
+ p{
+font-family:Georgia;
+}
+ h2{
+ font-family:Georgia;
+ }
+ 
+ </style>
+</head>   
+<body>
+   <img src="https://media.istockphoto.com/photos/starbucks-coffee-shop-branding-logo-with-no-people-picture-id1310936055?k=20&m=1310936055&s=612x612&w=0&h=9kQCcmLWx-W0NfS0kwV5AX4I0JaBMu5aiU-sE5tddlI=" alt="coffee" 
+   width="1300" height="250">
+   </body>
+</html>
+
+## bottom.html
+<!doctype html>
+<html>
+<head>
+   <title></title>
+ <H2 COLOR="#00704A">&#9776;</H2>
+   <h2 align="center" class="circle">Welcome To Starbucks!</h2>
+<style>
+.circle {
+color:white;
+  text-align:centre;
+    background:#00704A;
+    width: 500px;
+    height: 50px;
+	margin-left: 30%;
+	justify-content: center;
+  align-items: center;
+text-align: center;
+  display: flex;
+}
+ p{
+font-family:Georgia;
+}
+ h2{
+ font-family:Georgia;
+ }
+ 
+ </style>
+</head>   
+<body>
+   <img src="https://media.istockphoto.com/photos/starbucks-coffee-shop-branding-logo-with-no-people-picture-id1310936055?k=20&m=1310936055&s=612x612&w=0&h=9kQCcmLWx-W0NfS0kwV5AX4I0JaBMu5aiU-sE5tddlI=" alt="coffee" 
+   width="1300" height="250">
+   </body>
+</html>
+
+## bottom1.html
+<!doctype html>
+<html>
+<head>
+   <title></title>
+   <style>
+   div{
+   
+   background-color:black;
+   color:white;
+   font-family:Georgia;}
+   .row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+</style>
+</head>   
+<body>
+<div class="row">
+ <div class="column">
+<h1>Cakes</h1>
+</div>
+ <div class="column">
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrwKinIaxr_1RA15_c-_Cvk_OokshgQDLKFg&usqp=CAU"
+   width="380" height="150">
+   </div>
+   </div>
+   <hr color="#00704A">
+   <p><B> Java Chip with Chocolate Sauce and Chips. Caramel Macchiato with Salted Caramel Drizzle. Fudgy Brownie Pie. New York Cheesecake. Strawberry & Almond Cake.<B></p>
+   
+   
+   </body>
+</html>
+   
+
+## bottom2.html
+<!doctype html>
+<html>
+<head>
+   <title></title>
+   <style>
+   div{
+   
+   background-color:black;
+   color:white;
+   font-family:Georgia;}
+   .row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+</style>
+</head>   
+<body>
+<div class="row">
+ <div class="column">
+<h1>Breads</h1>
+</div>
+ <div class="column">
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk17-5ZCOvfeJcLCH8gpCSmudEB7OUz-VSfg&usqp=CAU"
+   width="380" height="150">
+   </div>
+   </div>
+   <hr color="#00704A">
+   <p><B>Loaves & Cakes ; Cinnamon Coffee Cake ; Iced Lemon Loaf ; Pumpkin & Pepita Loaf ; Banana Walnut & Pecan Loaf. <b></p>
+   
+   
+   </body>
+</html>
+----------------------------------------------------------------------------------------
+
+
+Practical 5
+Write a HTML code to display the Railway Information including Name, Departure Time, Arrival Time, PNR Status, etc.
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Railway </title>
+<script type="text/javascript">
+function message()
+{
+ alert("Your form is successfully submitted!!");
+}
+</script>
+<style>
+h1
+{
+background-color:gray;
+ color:blue;
+ font family :Georgia;
+}
+label{
+font-style:bold;
+font-size:20px;
+
+}
+body {
+  background-image: url(https://live.staticflickr.com/65535/49836958283_4b4309230a_b.jpg); 
+}
+.menu {
+  width: 80%;
+  background-color: lightgray;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+</style>
+</head>
+<body background="">
+<div class="menu">
+<form align="center">
+<h1>Railway Reservation form</h1>
+<b><hr color="red" width="200" height="200"></b>
+<br>
+<label><b>Train name or number</b></label>
+<input type="text" name="train_name" size="20"/>
+<br>
+<br>
+<br>
+<label><b>Journey from : </b></label>
+<input type="text" name="from"size="15"/>
+<br>
+<br>
+<br>
+<label><b>Journeey to : </b></label>
+<input type="text" name="to" size="15"/>
+<br>
+<br>
+<br>
+<label><b>Class : </b></label>
+<Select>
+<Option value="Class">Class</option>
+<Option value="Sleeper">sleeper</option>
+<option value="First class">First class</option>
+<Option value="Third AC">Third AC</option>
+<option value="First AC">First Ac</option>
+</Select>
+<br>
+<br>
+<br>
+<label><b>Departure date : </b></label>
+<input type="date"/>
+<br>
+<br>
+<br>
+<label><b>Passenger name : </b></label>
+<input type="text" name="P_name"  size="20"/>
+<br>
+<br>
+<br>
+<label><b>Phone no : </b></label>
+<input type="text" name="country_code" value="+91" size="2"/>
+<input type="text" name="phone" size="10"/>
+<br>
+<br>
+<br>
+<label><b>Age :</b></label>
+<input type="text" name="age"size="3"/>
+<br>
+<br>
+<br>
+<label><b>Gender : </b></label>
+<input type="radio" name="male"/>Male
+<input type="radio" name="female"/>Female
+<input type="radio"  name="other"/>Other<br>
+<br>
+<br>
+<input type="button" value="Submit" onClick="message()"/>
+<br>
+<br>
+</form>
+</div>
+</body>
+</html>
+----------------------------------------------------------------------------------------------------------------
+
+Practical 6
+Apply CSS to any of the web-page designed by you by using:-
+ (i) Internal CSS
+ (ii) External CSS 
+ 
+ <!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="mystyle.css">
+<style type="text/css">
+   h2{font-family:tahoma;font-style:italic;font-size:20;text-align:center;}
+</style> 
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<h2> this is heading 2 </h2>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+mystyle.css
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+---------------------------------------------------------------------------------------------------
+Practical 7
+To Study JavaScript (problems on JavaScript)**CALCULATOR**
+<html>
+<head>
+<title> Arithmatic Operation </title>
+<style type="text/css">
+form
+{
+ background-color:bisque;
+ width:80%;
+ margin-left:25%;
+  margin-right:25%;
+padding:20px;
+max-width:300px;
+}
+/* The animation code */
+div.slide-left
+{
+ width:100%;
+ overflow:hidden;
+}
+div.slide-left 
+{
+ animation:slide-left 10s;
+}
+@keyframes slide-left
+{
+from
+{
+margin-left:100%;
+width:300%;
+}
+to
+{
+margin-left:0%;
+width:100%;
+}
+</style>
+<script type="text/javascript">
+ var n1,n2,r;
+ function add()
+ {
+ n1=document.myform.n1.value;
+ n2=document.myform.n2.value;
+ n1=parseFloat(n1);
+ n2=parseFloat(n2);
+ r=n1+n2;
+ document.myform.result.value=r;
+ }
+function sub()
+{
+ n1=document.myform.n1.value;
+ n2=document.myform.n2.value;
+ n1=parseFloat(n1);
+ n2=parseFloat(n2);
+ r=n1-n2;
+ document.myform.result.value=r;
+}
+function mul()
+{
+ n1=document.myform.n1.value;
+ n2=document.myform.n2.value;
+ n1=parseFloat(n1);
+ n2=parseFloat(n2);
+ r=n1*n2;
+ document.myform.result.value=r;
+}
+function divide()
+{
+ n1=document.myform.n1.value;
+ n2=document.myform.n2.value;
+ n1=parseFloat(n1);
+ n2=parseFloat(n2);
+ r=n1/n2;
+ document.myform.result.value=r;
+}
+function modulo()
+{
+ n1=document.myform.n1.value;
+ n2=document.myform.n2.value;
+ n1=parseFloat(n1);
+ n2=parseFloat(n2);
+ r=n1%n2;
+ document.myform.result.value=r;
+}
+</script> </head>
+<body background="https://png.pngtree.com/thumb_back/fh260/background/20200604/pngtree-cute-hand-drawn-style-math-education-stripes-background-image_337560.jpg">
+<div>
+<form name="myform">
+<h1 align="center"> Calculator </h1>
+<hr color="red">
+<center><h2><u>Enter a number in each text box </u></h2><br><br>
+<b>Number 1:</b><input type="text" name="n1" value=""> <br><br>
+<b>Number 2:</b><input type="text" name="n2" value=""> <br><br>
+<input type="button" value="Add" onClick="add()">
+<input type="button" value="Subtract" onClick="sub()">
+<input type="button" value="Multiply" onClick="mul()" >
+<input type="button" value="Divide" onClick="divide()">
+<input type="button" value="Modulo" onClick="modulo()"><br><br>
+<font color="red">Result is:
+<input type="text" name="result" value=""></center></font>
+</form></div>
+</body>
+</html>
+-----------------------------------------------------------------
+
+
+Practical 8
+Write a JavaScript program to print the Fibonacci sequence.
+<html>
+<body>
+
+ <input type text="text" id="txtloop" />
+        <input type="button" id="btnEnter" value="Enter" onclick="fibonacci_series(txtloop.value)" />
+
+        <p id="output"></p>
+<p id="demo"></p>
+
+<script>
+var fibonacci_series = function (n) 
+{
+  if (n==1) 
+  {
+var loop = [0, 1];
+   document.getElementById("output").innerHTML = loop;
+  return loop;
+  } 
+  else 
+  {
+    var s = fibonacci_series(n - 1);
+    s.push(s[s.length - 1] + s[s.length - 2]);
+    document.getElementById("output").innerHTML =s;
+    return s;
+  }
+   
+};
+
+</script>
+</body>
+</html>
+
+--------------------------------------------------
+Practical 9
+Write a XML program to store information of a student.
+
+student_info.xml
+<?xml version="1.0"?>
+<!DOCTYPE class SYSTEM "class.dtd">
+<class>
+<student>
+<name>Apurva Jadhao</name>
+<id>20010658</id>
+<branch>IT</branch>
+<cgpa>8</cgpa>
+<college>YCCE</college>
+</student>
+<student>
+<name>Mrunali Madarkar</name>
+<id>20010659</id>
+<branch>CT</branch>
+<cgpa>9</cgpa>
+</student>
+<student>
+<name>Aditi Pimpalkar</name>
+<id>20010660</id>
+<branch>CSE</branch>
+<cgpa>10</cgpa>
+<college>VNIT</college>
+</student>
+<student>
+<name>Vibhati Tikle</name>
+<id>20010661</id>
+<branch>Civil</branch>
+<cgpa>10</cgpa>
+<college>Raisoni</college>
+</student>
+</class>
+
+class.dtd<?xml version = "1.0"?>
+<!--students.dtd-a document type definition for the students.xml-->
+<!ELEMENT class (student)>
+<!ELEMENT student (name,id,branch,cgpa,college)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT branch (#PCDATA)>
+<!ELEMENT cgpa (#PCDATA)>
+<!ELEMENT college (#PCDATA)>
